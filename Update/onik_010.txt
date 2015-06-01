@@ -943,12 +943,12 @@ void main()
 
 	DisableWindow();
 	FadeBustshotWithFiltering( 2, "left", 1, FALSE, 0, 0, 300, TRUE );
-	DrawBustshot( 3, "re_se_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
+	DrawBustshot( 3, "me_se_wa_a1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //「正解だねッ！！＠
 	PlaySE(3, "s01/03/120300038", 256, 64);
 	OutputLine(NULL, "「正解だねッ！！」",
-		   NULL, "\"You were right!!\"", Line_WaitForInput);
+		   NULL, "\"I was right!!\"", Line_WaitForInput);
 	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 
 
