@@ -2371,9 +2371,10 @@ void main()
 	OutputLine(NULL, "　爪？！",
 		   NULL, "\"Nails!?", Line_WaitForInput);
 	OutputLine(NULL, "　爪って、指についてる…この爪か？！",
-		   NULL, " As in fingernails!?", Line_WaitForInput);
+		   NULL, " As in fingernails!?\"", Line_WaitForInput);
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
 	OutputLine(NULL, "　それで…ガリガリと？！？！",
-		   NULL, " With those... he clawed through...?!", Line_Normal);
+		   NULL, "With those... he clawed through...?!", Line_Normal);
 	ClearMessage();
 
 
